@@ -1,0 +1,68 @@
+{
+  "configurations": [
+    {
+      "name": "dev",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=dev_config.json",
+        "dev"
+      ]
+    },
+    {
+      "name": "dev(profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=dev_config.json",
+        "dev"
+      ],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "dev(release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=dev_config.json",
+        "dev"
+      ],
+      "flutterMode": "release"
+    },
+    {
+      "name": "prod",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=prod_config.json",
+        "prod"
+      ]
+    },
+    {
+      "name": "prod(profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=prod_config.json",
+        "prod"
+      ],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "prod(release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file=prod_config.json",
+        "prod"
+      ],
+      "flutterMode": "release"
+    }
+  ]
+}
